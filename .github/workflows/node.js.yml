@@ -14,8 +14,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: npm install and build webpack
       - run: |
-        npm install
-        npm run build --if-present
+          npm install
+          npm run build --if-present
 
   test:
 
